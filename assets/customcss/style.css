@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 html, body {
+  /* to hide scrollbar bottom */
+  overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -42,6 +44,11 @@ html, body {
   width: 81%;
   letter-spacing: 0.5px;
   line-height: 1.6;
+}
+
+/* Section 3 */
+.section-clients {
+  background-color: rgb(238, 236, 236);
 }
 
 /* Responsive Mobile, Tablet & Desktop*/
