@@ -16,12 +16,34 @@ html, body {
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 500;
+  margin-right: 35px;
+}
+
+.nav-link.nav-link-icon {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 0;
 }
 
 .nav-link:active {
   color: rgba(0, 0, 0, 0);
+}
+
+.nav-item .nav-link.signup-button {
+  border: 1px solid #F57B20;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #F57B20;
+}
+
+.navbar-collapse .nav-link.nav-link-line {
+  font-size: 17px;
+}
+
+.nav-link:hover {
+  color: grey;
 }
 
 /* section 2 */
