@@ -44,6 +44,15 @@ html, body {
   color: #F57B20;
 }
 
+.nav-item .nav-link.signup-button:hover {
+  border: 1px solid #F57B20;
+  /* border: none; */
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F57B20;
+}
+
 .navbar-collapse .nav-link.nav-link-line {
   font-size: 17px;
 }
@@ -138,6 +147,7 @@ html, body {
 /* Section 4 */
 .section-card .card-body h5 {
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .section-card .card-body p {
@@ -150,24 +160,61 @@ html, body {
   text-decoration: none;
 }
 
+.content-card p, h4 {
+  text-align: center;
+  color: black;
+}
+
+.content-card h4 {
+  font-weight: bold;
+}
+
+.content-card .section-title {
+  color: #FFD000;
+  font-size: 20px;
+}
 
 
+/* Section 5 */
+.description-text h3 {
+  text-align: center;
+  font-weight: bold;
+}
 
+.description-text p {
+  text-align: center;
+  color: #000000;
+}
 
+.description-text .span {
+  color: #F57B20;
+}
 
+.row-content {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
 
+.row-content p {
+  padding: 10px;
+  border: 1px solid grey;
+  width: 300px;
+  height: auto;
+  color: #000000;
+}
 
+.row-content .sideleft-image {
+  display: block;
+  float: left;
+}
 
-
-
-
-
-
-
-
-
-
-
+.row-content .image-center {
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-right: auto;
+}
 
 /* Responsive website */
 @media only screen and (max-width: 1023px) {
