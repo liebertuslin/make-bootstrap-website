@@ -174,6 +174,19 @@ html, body {
   font-size: 20px;
 }
 
+.learn-more {
+  border: none;
+  background-color: #ffffff;
+  color: #FF9533;
+}
+
+.container-card .card:hover {
+  border-top: 6px solid grey;
+  box-shadow: -3px 11px 12px -8px rgba(0,0,0,0.78);
+  -webkit-box-shadow: -3px 11px 12px -8px rgba(0,0,0,0.78);
+  -moz-box-shadow: -3px 11px 12px -8px rgba(0,0,0,0.78);
+}
+
 
 /* Section 5 */
 .description-text h3 {
@@ -192,29 +205,62 @@ html, body {
 
 .row-content {
   padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid grey;
+}
+
+.button {
+  display: flex;
+  align-items: center;
 }
 
 .row-content p {
   padding: 10px;
   border: 1px solid grey;
-  width: 300px;
+  border-radius: 10px;
+  width: 200px;
   height: auto;
   color: #000000;
+  margin-bottom: 100px;
 }
 
-.row-content .sideleft-image {
+/* left image */
+.row-content .row.right {
+  width: 220px;
   display: block;
-  float: left;
+  float: right;
 }
 
+/* center image */
 .row-content .image-center {
   width: 250px;
   display: block;
   margin: auto;
   margin-right: auto;
 }
+
+.row-content .image-center:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+.row-content .row.right-description {
+  margin-left: 50%;
+}
+
+.row-content .row.left-img {
+  display: block;
+  float: left;
+  width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive website */
 @media only screen and (max-width: 1023px) {
