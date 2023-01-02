@@ -253,14 +253,123 @@ html, body {
 }
 
 
+/* Section 6 */
+.tabs-section .row .button-tabs {
+  color: #777676;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.tabs-section .row .button-tabs:hover {
+  padding: 0;
+  border-bottom: 4px solid green;
+}
+
+.tab-pane .row div p {
+  color: grey;
+}
+
+.tab-pane .row .col-description-1 {
+  border-left: 3px dotted #379237;
+  border-bottom: 3px dotted #379237;
+}
+
+.tab-pane .row .col-description-2 {
+  border-left: 3px dotted #379237;
+}
+
+.tab-pane .row .col-description-3 {
+  border-top: 3px dotted #379237;
+  border-left: 3px dotted #379237;
+  border-bottom: 3px dotted #379237;
+}
+
+.tab-pane .row .col-description-4 {
+  border-left: 3px dotted #379237;
+}
 
 
+/* Section 7 */
+.section-educate {
+  box-sizing: border-box;
+}
 
+/* .section-educate .img-atas, .img-bawah {
+  border: none;
+} */
 
+.section-educate .container-bg-white {
+  background: #ffffff;
+  height: 200px;
+  box-sizing: border-box;
+}
 
+.section-educate .container-bg-white .container {
+  top: -150px;
+  position: relative;
+  background: #ffffff;
+  height: 500px;
+  box-shadow: 1px 0px 2px 0px rgba(0,0,0,0.73);
+  -webkit-box-shadow: 1px 0px 2px 0px rgba(0,0,0,0.73);
+  -moz-box-shadow: 1px 0px 2px 0px rgba(0,0,0,0.73);
+}
 
+.section-educate .container-bg-white .container .first-row h4, p {
+  text-align: center;
+  color: #000000;
+}
 
+.section-educate .container-bg-white .container .row p {
+  width: 500px;
+  margin-left: 30%;
+  display: flex;
+}
 
+.second-row {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.second-row .img {
+  background-color: #D9D9D9;
+  padding: 15px;
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Section 8 */
+.mobile-section .container {
+  height: 300px;
+}
+
+.mobile-section div p, h4 {
+  text-align: left;
+}
+
+.mobile-section .container .img-top {
+  margin-top: 0;
+  padding-top: 0;
+  right: -150px;
+  display: block;
+  position: relative;
+}
+
+.mobile-section .container .img-bottom {
+  right: -90px;
+  top: -180px;
+  display: block;
+  position: relative;
+}
+
+.mobile-icons {
+  display: flex;
+}
 
 /* Responsive website */
 @media only screen and (max-width: 1023px) {
